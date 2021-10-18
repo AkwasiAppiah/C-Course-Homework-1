@@ -17,12 +17,11 @@ namespace PersonDatabase
             {
                 Person person = IMethods.GetAPersonFromUser();
                 people.Add(person);
+
                 Console.WriteLine("Take note of this unique ID number {0}", person.ID);
-
-                Console.WriteLine("Do you want to enter another person? Yes(Y) or No (x)?");
+                Console.WriteLine("User successfully added");
+                Console.Write("Do you want to enter another person? Yes(Y) or No (x)?" );
                 input = Console.ReadLine();
-
-                
             }
 
             Console.WriteLine("Do you need to update the databse? D for delete or F for find or x to exit");

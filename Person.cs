@@ -9,8 +9,8 @@ namespace PersonDatabase
 
         public Person(string _FirstName, string _LastName)
         {
-            this.FirstName = _FirstName;
-            this.LastName = _LastName;
+            FirstName = _FirstName;
+            LastName = _LastName;
         }
         Guid guid = Guid.NewGuid();
 
